@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+
+  transition: color 0.2s ease-in-out;
+}
+
+.active {
+  color: #20a6b5;
+}
