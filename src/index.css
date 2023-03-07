@@ -16,6 +16,7 @@
   --color-tertiary: #0F5A5F;
   --color-quaternary: #063535;
   --color-quinary: #001010;
+  --color-orange: #D86B27;
   --color-text: #FFFFFF;
   --color-text-secondary: #E0E0E0;
   --color-text-tertiary: #B0B0B0;
@@ -39,7 +40,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-secondary-variant);
+  color: var(--color-orange);
 }
 
 body {
